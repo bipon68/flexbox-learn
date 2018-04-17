@@ -1,0 +1,20 @@
+
+/* flex container properties */
+ul{
+    border: 1px solid red;
+    padding: 0;
+    list-style: none; 
+    background-color: #e8e8e9;
+     /* justify-content: flex-start;  */
+    /* align-items: flex-start; */
+    display: flex;
+     height: 500px; 
+}
+/* flex container items properties */
+li {
+    width: 100px;
+    height: 100px; 
+    background-color: #8cacea; 
+    margin: 8px; 
+    list-style: none;
+}

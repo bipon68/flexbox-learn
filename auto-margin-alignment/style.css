@@ -1,0 +1,15 @@
+ul {
+    display:  flex; 
+}
+li {
+ flex: 0 0 auto;
+ list-style: none;
+ background-color: #d1d1d1;
+ padding: 5px;
+ margin-right: 5px;
+ /* margin: auto; */
+}
+ li:nth-child(1){
+    margin-right: auto;
+    margin-left: auto;
+} 

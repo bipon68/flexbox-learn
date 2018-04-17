@@ -1,0 +1,31 @@
+
+/* flex container properties */
+ul{
+    border: 1px solid red;
+    padding: 0;
+    list-style: none; 
+    background-color: #e8e8e9;
+     /* justify-content: flex-start;  */
+    /* align-items: flex-start; */
+    display: flex;
+     height: 500px; 
+}
+/* flex container items properties */
+ li {
+    flex: auto; /*remember this is same as  ex: 1 1 auto;*/
+    border: 2px solid red;
+    margin: 2em;
+    
+} 
+/* li:nth-child(1) {
+     flex: 2 1 0; 
+     background-color: #3c74e1;
+}
+li:nth-child(2) {
+     flex: 1 1 0;
+    background-color: #8cacea;
+}
+li:first-of-type{
+    background-color: gray;
+    align-self: flex-end;
+} */
